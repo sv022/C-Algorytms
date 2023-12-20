@@ -1,3 +1,6 @@
+//#define ld long double
+// intended for use in other project
+
 ld tobinfloat(string n) {
     ld res = 0;
     for (int i = n.size() - 1; i >= 0; i--) {
